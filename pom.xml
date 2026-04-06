@@ -41,7 +41,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>gr.uop.Client</mainClass>
+                            <mainClass>gr.uop.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>
@@ -60,7 +60,7 @@
                             <finalName>GrinirisClient</finalName>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>gr.uop.Client</mainClass>
+                                    <mainClass>gr.uop.App</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
