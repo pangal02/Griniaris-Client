@@ -1,9 +1,6 @@
 package gr.uop;
 
-import java.util.ArrayList;
-
 import gr.uop.logic.GameEngine;
-import gr.uop.model.Player;
 import gr.uop.scenes.LoginScene;
 import gr.uop.scenes.SceneManager;
 import javafx.application.Application;

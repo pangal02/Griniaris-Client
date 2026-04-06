@@ -1,9 +1,7 @@
 package gr.uop.scenes;
 
 import gr.uop.net.Client;
-import gr.uop.logic.Move;
 import gr.uop.model.BoardSquare;
-import gr.uop.model.HomeSquare;
 import gr.uop.model.HomeSquare;
 import gr.uop.model.Player;
 import gr.uop.model.Pawn;
@@ -14,10 +12,6 @@ import javafx.event.EventHandler;
 import javafx.scene.input.MouseEvent;
 import java.util.List;
 import java.util.Map;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -29,15 +23,17 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.Button;
 import javafx.scene.control.ContentDisplay;
-import javafx.scene.layout.*;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
 import javafx.scene.Cursor;
-import javafx.scene.Group;
 
 public class GameScene {
 
